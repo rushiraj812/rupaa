@@ -237,3 +237,18 @@ hr.carousel-hr {
 #carouselExampleSlidesOnly{
     background-color: #E9E4F0;
 }
+#signin_btn {
+    margin-left: 95px;
+}
+#forgotpwd_link {
+    margin-left: 69px;
+}
+#signup_btn {
+    margin-left: 76px;
+}
+.modal-backdrop.show {
+    opacity: 0.7 !important;
+}
+.modal-backdrop {
+     z-index: 1000 !important; 
+}

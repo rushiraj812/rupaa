@@ -27,20 +27,44 @@
                     </ul>
                     <ul class="navbar-nav mr-right">
                         <li class="nav-item">
-                            <!--                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">-->
+                            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Login</button> -->
                             <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-user"  aria-hidden="true"></i> Login</a>
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <h2 class="modal-title" id="exampleModalLabel" style="text-align: center">LOGIN</h2>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <div class="row">
+                                                <form id="contact" style="margin:0 auto">
+                                                    <!-- <p style="text-align: center"><b> SIGN IN </b></p> -->
+                                                    <!-- <P style="text-align: center">Login to your account</P> -->
+                                                    <div id="input_text">
+                                                        <table>
+                                                            <td>
+                                                                <tr>
+                                                                    <input type="text" id="email" name="email" class="form-control" placeholder="Email">
+                                                                </tr>
+                                                                <br>
+                                                                <tr>
+                                                                    <input type="text" id="password" name="password" class="form-control" placeholder="Password">
+                                                                </tr>
+                                                                <br>
+                                                                <tr>
+                                                                    <button class="btn btn-warning" id="signin_btn">Sign In</button>
+                                                                </tr>
+                                                            </td>
+                                                        </table>
+                                                    </div>
+                                                    <p id="forgotpwd_link"><a href="#">forgot password </a></p>
+                                                    <p>Don't have an account? <a href="register.html"> Create one.</a></p>
+                                                </form>
+                                            </div>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -51,7 +75,56 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a>
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalsignup"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a>
+                            <div class="modal fade" id="exampleModalsignup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title" id="exampleModalLabel" style="text-align: center">SIGN UP</h2>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <form id="contact" style="margin:0 auto">
+                                                    <!-- <p style="text-align: center"><b> SIGN UP </b></p>
+                                                    <P style="text-align: center">Register for your account</P> -->
+                                                    <div id="input_text">
+                                                        <table>
+                                                            <td>
+                                                                <tr>
+                                                                    <input type="text" name="email" class="form-control" placeholder="Email">
+                                                                </tr>
+                                                                <br>
+                                                                <tr>
+                                                                    <input type="text" name="password" class="form-control" placeholder="Password">
+                                                                </tr>
+                                                                <br>
+                                                                <tr>
+                                                                    <input type="text" name="password" class="form-control" placeholder="Confirm Password">
+                                                                </tr>
+                                                                <br>
+                                                                <input type="checkbox" name="terms_conditions" value="terms_conditions"> I Agree to terms and conditions
+                                                                <br>
+                                                                <br>
+                                                                <tr>
+                                                                    <button class="btn btn-warning" id="signup_btn">Sign Up</button>
+                                                                </tr>
+                                                            </td>
+                                                        </table>
+                                                        <p>Already have an account? <a href="LogIn.html"> Log In.</a></p>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
