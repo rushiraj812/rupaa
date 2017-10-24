@@ -252,3 +252,7 @@ hr.carousel-hr {
 .modal-backdrop {
      z-index: 1000 !important; 
 }
+
+#input_text{
+    margin-left: 80px;
+}
