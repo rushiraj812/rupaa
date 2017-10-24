@@ -218,7 +218,7 @@ hr.carousel-hr {
 }
 .imageFloat:hover{
     box-shadow: 1em 1em 3em -0.4em #D3CCE3;
-  transform: translateY(-0.75em);
+    transform: translateY(-0.75em);
     cursor:pointer;
 }
 .next>span, .previous>span{
