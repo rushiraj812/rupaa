@@ -257,7 +257,9 @@ hr.carousel-hr {
     margin-left: 80px;
 }
 .logo{
-    font-family: Bungee;
+    font-family: Rokkitt;
+    font-size: 1.5em !important;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
