@@ -238,13 +238,12 @@ hr.carousel-hr {
     background-color: #E9E4F0;
 }
 #signin_btn {
-    margin-left: 95px;
 }
 #forgotpwd_link {
-    margin-left: 69px;
+    text-align: center;
 }
 #signup_btn {
-    margin-left: 76px;
+    margin: 10px 0px;
 }
 .modal-backdrop.show {
     opacity: 0.7 !important;
@@ -254,7 +253,7 @@ hr.carousel-hr {
 }
 
 #input_text{
-    margin-left: 80px;
+    text-align: center;
 }
 .logo{
     font-family: Rokkitt;
