@@ -40,11 +40,10 @@
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
+                                        
                                         <div class="modal-body">
                                             <div class="row">
                                                 <form id="contact" style="margin:0 auto">
-                                                    <!-- <p style="text-align: center"><b> SIGN IN </b></p> -->
-                                                    <!-- <P style="text-align: center">Login to your account</P> -->
                                                     <div id="input_text">
                                                         <div class="form-group row">
                                                             <label for="inputEmail" class="col-sm-3 col-form-label">Email</label>
@@ -59,14 +58,17 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    
                                                     <p id="forgotpwd_link"><a href="#" style="text-align: center">Forgot password</a></p>
+                                                    
                                                     <p style="text-align: center">Don't have an account? <a href="register.html"> Create one.</a></p>
                                                 </form>
                                             </div>
                                         </div>
+                                        
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-standard" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-info">Save changes</button>
+                                            <button type="button" id="closeLogin" class="btn btn-standard" data-dismiss="modal">Close</button>
+                                            <button type="button" id="saveChanges" class="btn btn-info">Save changes</button>
                                         </div>
                                     </div>
                                 </div>
@@ -113,15 +115,15 @@
                                                             <span class="custom-control-description">Agree to terms and conditions!</span>
                                                         </label>
                                                         <br>
-                                                        <button class="btn btn-info" id="signup_btn">Sign Up</button>
+                                                        <button id="signup" class="btn btn-info" id="signup_btn">Sign Up</button>
                                                         <p>Already have an account? <a href="LogIn.html"> Log In.</a></p>
                                                     </div>
                                                 </form>
                                             </div>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-standard" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-info">Save changes</button>
+                                            <button type="button" id="closeSignup" class="btn btn-standard" data-dismiss="modal">Close</button>
+                                            <button type="button" id="saveSignup" class="btn btn-info">Save changes</button>
                                         </div>
                                     </div>
                                 </div>

@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 .nav-btn {
     /*  background: rgba(255,255,255,0.6) !important;*/
     /*    background: #614385 !important;*/
@@ -25,7 +26,6 @@
     border: 2px solid #fff !important;
     /*  background: #d68b28 !important; */
 }
-
 
 .bg-dark-new {
     background: #000000;
@@ -172,21 +172,22 @@ hr.carousel-hr {
     /*    background: #d68b28;*/
     box-shadow: 0px 5px 20px #000;
 }
+
+
 /*2nd carousal*/
 
-#template{
+#template {
     margin-bottom: .5rem;
     font-family: inherit;
     font-weight: 500;
     line-height: 3.1;
     color: #642B73;
-    padding-top:10px;
-    text-align:center;
-    font-size:35px;
-    
+    padding-top: 10px;
+    text-align: center;
+    font-size: 35px;
 }
 
-#template:hover{
+#template:hover {
     text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -195,7 +196,7 @@ hr.carousel-hr {
     width: 100px;
     display: block;
     background: #cbb4d4;
-/*    background: rgba(219, 219, 219, 0.5);*/
+    /*    background: rgba(219, 219, 219, 0.5);*/
     height: 2px;
     margin: 10px auto;
     line-height: 1.1;
@@ -209,59 +210,71 @@ hr.carousel-hr {
 }
 
 .imageFloat {
-/*    border: 1px solid grey;*/
+    /*    border: 1px solid grey;*/
     margin: 30px 10px;
     border-radius: 15px;
     box-shadow: 0px 0px 7px 0px #642B73;
     transition: all 0.6s;
-    border:1px solid #D3CCE3;
-}
-.imageFloat:hover{
-    box-shadow: 1em 1em 3em -0.4em #D3CCE3;
-    transform: translateY(-0.75em);
-    cursor:pointer;
-}
-.next>span, .previous>span{
-    color:darkgray;
-    height:30px;
-    width:30px;
-}
-.next>span>i, .previous>span>i{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    font-size:3em;
+    border: 1px solid #D3CCE3;
 }
 
-#carouselExampleSlidesOnly{
+.imageFloat:hover {
+    box-shadow: 1em 1em 3em -0.4em #D3CCE3;
+    transform: translateY(-0.75em);
+    cursor: pointer;
+}
+
+.next>span,
+.previous>span {
+    color: darkgray;
+    height: 30px;
+    width: 30px;
+}
+
+.next>span>i,
+.previous>span>i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+}
+
+#carouselExampleSlidesOnly {
     background-color: #E9E4F0;
 }
-#signin_btn {
-}
+
+#signin_btn {}
+
 #forgotpwd_link {
     text-align: center;
 }
+
 #signup_btn {
     margin: 10px 0px;
 }
+
 .modal-backdrop.show {
     opacity: 0.7 !important;
 }
+
 .modal-backdrop {
-     z-index: 1000 !important; 
+    z-index: 1000 !important;
 }
 
-#input_text{
+#input_text {
     text-align: center;
 }
-.logo{
+
+.logo {
     font-family: Rokkitt;
     font-size: 1.5em !important;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+
 /*#img1{
     background-image: url(../images/logo.png);
     background-repeat: no-repeat;
@@ -271,3 +284,79 @@ hr.carousel-hr {
     position: fixed;
     overflow: hidden;
 }*/
+
+#closeLogin {
+    background-color: #A393EB;
+    /*    background: rgba(255, 255, 255, 0.4);*/
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;   
+}
+
+#closeLogin:hover {
+    background-color: #2F1B41;
+    border: 2px solid #A393EB;
+}
+
+#saveChanges {
+    background-color: #A7D46F;
+    opacity: 0.7
+    /*    background: rgba(255, 255, 255, 0.4);*/
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+#saveChanges:hover {
+    background-color: #1B4B36;
+    border: 2px solid #A7D46F;
+}
+
+#closeSignup {
+    background-color: #A393EB;
+    /*    background: rgba(255, 255, 255, 0.4);*/
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#saveSignup {
+    background-color: #A7D46F;
+    opacity: 0.7
+    /*    background: rgba(255, 255, 255, 0.4);*/
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;   
+}
+
+#closeSignup:hover {
+    background-color: #39065A;
+    border: 2px solid #A393EB;
+}
+
+#saveSignup:hover {
+    background-color: #1B4B36;
+    border: 2px solid #A7D46F;
+}
+
+#signup{
+    background-color: #C3BEF0;
+    border:2px solid #C3BEF0;
+    color:#2F1B41;
+    border-radius:10px;
+}
+
+#signup:hover{
+    background-color: #512E67;
+    color:white;
+    border-radius:15x;
+}
